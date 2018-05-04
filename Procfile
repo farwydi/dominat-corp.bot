@@ -1,1 +1,0 @@
-web: dominat-corp.tgbot

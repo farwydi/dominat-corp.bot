@@ -22,7 +22,7 @@ func main() {
 	_, err = bot.SetWebhook(hook)
 
 	if err != nil {
-		fmt.Errorf("Problem in setting Webhook", err.Error())
+		fmt.Errorf("Problem in setting Webhook: " + err.Error())
 	}
 
 	// Set Handler for http server
